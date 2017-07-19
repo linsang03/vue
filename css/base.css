@@ -1,0 +1,109 @@
+/*公共*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font: inherit;
+    vertical-align: baseline;
+ font-family: arial,"Lantinghei SC","Microsoft Yahei";  
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+ul,li,ol{ list-style:none;}
+dl,dd{ margin:auto;}
+
+input,a{outline:none}
+
+.am-btn {font-size:12px ;}
+
+html{width:100%;
+     height:100%;
+    -ms-text-size-adjust:none;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -o-text-size-adjust:none;
+}
+/*text-size-adjust不管屏幕怎么变文字大小不变*/
+
+body{margin:0;
+     padding:0;
+     width:100%;
+     font-size:14px;
+     font-family: arial,"Lantinghei SC","Microsoft Yahei";  
+     
+}
+
+a:link,a:visited,a:hover{text-decoration:none; outline:none;}
+/*所有超链接不要下划线*/
+    
+*, *:after, *:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; }
+/*任何标签、包括它前面、后面生成的内容都不要影响盒子的边框*/
+.clearfix:after{  /*最简方式*/
+            content: '';
+            display: block;
+            clear: both;
+        }
+.clearfix{ /*兼容 IE*/
+            zoom: 1;
+        }
+.clear{ clear:both} 
+
+img, input {
+    vertical-align: middle;}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.float-l{float:left}
+.float-r{float:right}
+
+.w225{width:225px;}
+.w300{width:300px;}
+.w10{width:10%}
+.align-center{text-align:center}
+.align-left{text-align:left}
+
+.header{width:1200px;margin:0 auto;height:35px;line-height:35px;}
+.header ul li a {display:inline-block}
+
+.search_tab {width:1000px;margin:0 auto}
+.search_tab .logo,.search_tab .search_bar{display:inline-block}
+.search_bar{padding:20px 0 0 0;height:90px;}
+.search_bar from{;border:2px solid #F03726;width: 670px;display:block;height:50px}
+.search_bar from input {height:46px;line-height: 46px;}
+#searchInput{vertical-align: middle;width:80%;border:none;padding-left:5px}
+#searchSub{width:20%;border:none;padding:0;font-size:18px;background:#F03726;color:#fff;cursor:pointer}
+
+.nav_one{width:100%;border-bottom: 2px solid #d2364c;}
+.nav{width:100%}
+.nav_top{width:1200px;margin:0 auto}
+.allStyle{width:180px;height:45px;background:#d2364c;color:#fff;font-size:16px;line-height: 45px;text-align: center;position:relative;z-index:99}
+.nav_cont{position:relative;z-index: 9;}
+.nav_cont li{display:inline-block;}
+.nav_cont li:before{content:" ";display:inline-block;height:16px;border:1px solid #d9d9d9;width:0;vertical-align: middle;margin-left:-3px}
+.nav_cont li a{font-size: 16px;color:#333;line-height: 45px;padding:0 25px;font-weight: 700;}
+
+.footer{width:1200px;margin:0 auto;border-top: 2px solid #FF5400;}
+.footer_hd{line-height: 35px;border-bottom: 1px solid #DDD;}
+.footer_bd{line-height: 35px;text-align: center;}

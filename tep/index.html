@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel='stylesheet' href="../css/base.css">
+        <link rel='stylesheet' href="../css/index.css">
+    </head>
+    <body>
+        <div id="indexPage">
+            <div class="header">
+                <ul class="float-l">
+                    <a>亲，请登录</a>
+                    <a>免费注册</a>
+                </ul>
+                <ul class="float-r">
+                    <a>商城首页</a>
+                    <a>个人中心</a>
+                    <a>购物车</a>
+                </ul>
+            </div>
+            <div class="search_tab">
+                <div class="logo">
+                    <img src="../img/logobig.png" height="90" width="200">
+                </div>
+                <div class="search_bar">
+                    <from>
+                        <input type="text" name="searchName" id="searchInput" placeholder="搜索">
+                        <input type="submit" id="searchSub" value="搜索" class="float-r">
+                    </from>
+                </div>
+            </div>
+            <div class="nav_one">
+                <div class="nav_top">
+                    <div class="allStyle float-l">全部分类</div>
+                    <ul class="nav_cont float-l">
+                        <li><a>首页</a></li>
+                        <li><a>闪购</a></li>
+                        <li><a>限时抢</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav_bottom">
+                    <ul class="category_list float-l">
+                        <li>点心/点心<em>></em></li>
+                        <li>饼干/点心<em>></em></li>
+                        <li>熟食/点心<em>></em></li>
+                        <li>素食/点心<em>></em></li>
+                        <li>点心/点心<em>></em></li>
+                        <li>饼干/点心<em>></em></li>
+                        <li>熟食/点心<em>></em></li>
+                        <li>素食/点心<em>></em></li>
+                        <li>点心/点心<em>></em></li>
+                        <li>饼干/点心<em>></em></li>
+                        <li>熟食/点心<em>></em></li>
+                        <li>素食/点心<em>></em></li>
+                        <li>点心/点心<em>></em></li>
+                        <li>饼干/点心<em>></em></li>
+                        <li>熟食/点心<em>></em></li>
+                    </ul>
+                    <div class="nav_bottom_right float-l">
+                        <div id="banner" class="banner  float-l">
+                            <ul id="bn" class="banner_img_list clearfix">
+                                <li><img src="../img/row1.jpg"></li>
+                                <li><img src="../img/row2.jpg"></li>
+                                <li><img src="../img/row3.jpg"></li>
+                                <li><img src="../img/row4.jpg"></li>
+                            </ul>
+                        </div>
+                        <div class="notice  float-l" id="">
+                            <span class='notice_title'>头条</span>
+                            <ul class="notice_list">
+                                <li v-for="items in notList">{{items.name}}</li>
+                               <!-- <li>洋河年末大促，低至两件五折</li>
+                                <li>洋河年末大促，低至两件五折</li>
+                                <li>洋河年末大促，低至两件五折</li>
+                                <li>洋河年末大促，低至两件五折</li>-->
+                            </ul>
+                        </div>
+                        <ul class="row_list">
+                            <li><img src="../img/row1.jpg"></li>
+                            <li><img src="../img/row2.jpg"></li>
+                            <li><img src="../img/row3.jpg"></li>
+                            <li><img src="../img/row4.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="shopMainbg">
+                <!-- 秒杀 -->
+                <div class="seckill">
+                    <div class="seckill_title">
+                        <img src="../img/sale-t.jpg">
+                        <div class="seckill_time">
+                            <span id="hh" class="hh">03</span>
+                            <span id="mm" class="mm">20</span>
+                            <span id="ss" class="ss">55</span>
+                        </div>
+                    </div>
+                    <ul class="seckill_show">
+                        <li>
+                            <div class="seckill_img">
+                                <img src="../img/sale1.jpg">
+                            </div>
+                            <div class="seckill_info">
+                                <p><a href="introduction.html">海苔</a></p>
+                                <div>
+                                    <b>99元</b>
+                                    <a class="seckill_btn">秒杀</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="seckill_img">
+                                <img src="../img/sale2.jpg">
+                            </div>
+                            <div class="seckill_info">
+                                <p>海苔</p>
+                                <div>
+                                    <b>99元</b>
+                                    <a class="seckill_btn">秒杀</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="seckill_img">
+                                <img src="../img/sale3.jpg">
+                            </div>
+                            <div class="seckill_info">
+                                <p>海苔</p>
+                                <div>
+                                    <b>99元</b>
+                                    <a class="seckill_btn">秒杀</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="seckill_img">
+                                <img src="../img/sale1.jpg">
+                            </div>
+                            <div class="seckill_info">
+                                <p>海苔</p>
+                                <div>
+                                    <b>99元</b>
+                                    <a class="seckill_btn">秒杀</a>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <!-- 秒杀 -->
+
+                <div class="f1">
+                    <div class="shopTitle">
+                        <h4 class="float-l">甜品</h4>
+                        <div class="float-r">
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="shop_list">
+                        <div class="w225 float-l">
+                            <ul class="show_name_list">
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <div class="clear"></div>
+                            </ul>
+                            <div class="show_not1">
+                                <p>零食大礼包开抢啦</p>
+                                <span>当小鱼儿恋上软豆腐</span>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w300 float-l wback">
+                            <div class="show_not2">
+                                <p>雪之恋和风大福</p>
+                                <span>¥13.8</span>
+                            </div>
+                            <div>
+                                <img src="../img/act1.png">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div>
+                                <div class="show_not2">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="f1">
+                    <div class="shopTitle">
+                        <h4 class="float-l">甜品</h4>
+                        <div class="float-r">
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="shop_list">
+                        <div class="w225 float-l">
+                            <ul class="show_name_list">
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <div class="clear"></div>
+                            </ul>
+                            <div class="show_not1">
+                                <p>零食大礼包开抢啦</p>
+                                <span>当小鱼儿恋上软豆腐</span>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w300 float-l wback">
+                            <div class="show_not2">
+                                <p>雪之恋和风大福</p>
+                                <span>¥13.8</span>
+                            </div>
+                            <div>
+                                <img src="../img/act1.png">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div>
+                                <div class="show_not2">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="f1">
+                    <div class="shopTitle">
+                        <h4 class="float-l">甜品</h4>
+                        <div class="float-r">
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>|
+                            <a>桂花糕</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="shop_list">
+                        <div class="w225 float-l">
+                            <ul class="show_name_list">
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <li>核桃</li>
+                                <div class="clear"></div>
+                            </ul>
+                            <div class="show_not1">
+                                <p>零食大礼包开抢啦</p>
+                                <span>当小鱼儿恋上软豆腐</span>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w300 float-l wback">
+                            <div class="show_not2">
+                                <p>雪之恋和风大福</p>
+                                <span>¥13.8</span>
+                            </div>
+                            <div>
+                                <img src="../img/act1.png">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div>
+                                <div class="show_not2">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                                <img src="../img/5.jpg">
+                            </div>
+                        </div>
+                        <div class="w225 float-l">
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                            <div class="align-center">
+                                <img src="../img/1.jpg">
+                                <div class="show_not3">
+                                    <p>小优布丁</p>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer_hd">
+                        <a>首页</a>
+                    </div>
+                    <div class="footer_bd">
+                        <a>版权所有</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../js/vue.min.js"></script>
+    <script src="../js/vue-resource.js"></script>
+    <!--<script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/jq_banner.js"></script>-->
+    <script src="../js/index.js"></script>
+    <!--<script>
+        $(function(){
+            $("#banner").sider({
+                //焦点图ID
+                'showId' : '#bn',
+                //时间间隔
+                'time' : 3000,
+                //切换方式  sider none
+                'animation' : 'sider',
+                //自动切换
+                'auto' : true,
+                //圆点事件
+                'ways' : 'click',
+                //是否生成圆点
+                'bottomClick':true
+            })
+        })
+    </script>-->
+</html>

@@ -1,0 +1,99 @@
+/*公共*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: arial,"Lantinghei SC","Microsoft Yahei";
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+ul,li,ol{ list-style:none;}
+dl,dd{ margin:auto;}
+
+input,a{outline:none}
+
+.am-btn {font-size:12px ;}
+
+html{width:100%;
+    height:100%;
+    -ms-text-size-adjust:none;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -o-text-size-adjust:none;
+}
+/*text-size-adjust不管屏幕怎么变文字大小不变*/
+
+body{margin:0;
+    padding:0;
+    width:100%;
+    font-size:14px;
+    font-family: arial,"Lantinghei SC","Microsoft Yahei";
+
+}
+
+a:link,a:visited,a:hover{text-decoration:none; outline:none;}
+/*所有超链接不要下划线*/
+
+*, *:after, *:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; }
+/*任何标签、包括它前面、后面生成的内容都不要影响盒子的边框*/
+.clearfix:after{  /*最简方式*/
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix{ /*兼容 IE*/
+    zoom: 1;
+}
+from{display: block}
+
+body{background:#e1e1e1}
+#navbar{margin:0 5px;background: #1c6132;font-size:13px}
+.navbar-inner{width:90%;margin: auto;padding:5px}
+.brand{color: #fff;float: none;margin: 0 auto;width:120px;height: 45px;font-weight: 200;text-shadow:0 1px 0 #fff;font-size: 20px;
+    display: block;line-height: 45px;}
+#search_from{text-align: center}
+.searchInp{border-radius: 5px;border: none;background: #4f9639 url(../img/app/search.png) no-repeat 4px 4px;padding: 3px 5px 3px 22px;color:#666;transition: all .5s;width:206px;margin: 0 auto;height: 26px;line-height: 26px;}
+.nav{}
+.nav li {line-height: 25px;float: left}
+.nav li a{color: #fff;display: block;padding: 10px 15px;text-decoration:none}
+
+.main{margin: 20px auto;}
+.panel{margin: 0 5px;}
+.main_header{padding: 10px;background: #f6f6f6;border-radius: 3px 3px 0 0}
+.topic-tab{margin: 0 10px;color: #369219}
+.topic-tab.cur{background: #369219;color: #fff;padding: 3px 4px;border-radius: 3px}
+.cell{border-top:0;padding: 10px;background: #fff;position: relative;font-size: 14px;border-bottom: 1px solid #f0f0f0}
+.cell:last-child{border-bottom: none}
+.user_avatar{float: left;width: 30px;height: 30px;}
+.user_avatar img{width: 30px;height: 30px;border-radius: 3px}
+.reply_count{position: absolute;left: 80px;bottom: 5px;font-size: .8em}
+.last_time{position: absolute;right: 10px;bottom: 5px;font-size: .8em}
+.topic_title_wrapper{margin-left: 35px}
+.put_top{background: #369219;padding: 2px 4px;border-radius: 3px;font-size: 12px;color: #fff}
+.topiclist-tab{background: #999;padding: 2px 4px;border-radius: 3px;font-size: 12px;color: #fff}
+.pagination{height: 50px;border-radius: 4px;background: #fff;margin-bottom: 10px;}
+.pagination ul {display: inline-block;margin: 10px 0 10px 10px;border-radius: 4px;border:1px solid #eee}
+.pagination ul li {display: inline-block;padding: 4px 12px;line-height: 20px;color: #999;border-right: 1px solid #eee}
+.pagination ul li:last-child{border-right:none}

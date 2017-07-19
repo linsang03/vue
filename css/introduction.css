@@ -1,0 +1,87 @@
+.commodity{width:1200px;margin:0 auto}
+
+.crumbs{line-height:45px;}
+.crumbs a {margin-right:15px;}
+.crumbs a:last-child{margin-left: 15px;}
+
+.commodity_info_left{width:400px;}
+.commodity_info_left img {width:400px;height:400px}
+.commodity_info_left ul{margin-top:10px}
+.commodity_info_left ul li{display:inline-block;margin-right:10px;border:1px solid #CDCDCD;padding:1px}
+.commodity_info_left ul li.cur{border:1px solid red}
+.commodity_info_left ul li img {width:58px;height:58px;}
+
+.commodity_info_right{margin-left: 25px;width:700px}
+.commodity_title{font-size: 18px;line-height: 1;font-weight: 700;color:#000;}
+.commodity_discount{background: #F7F7F7;padding-left: 10px;margin: 20px 0;}
+.commodity_discount p{line-height: 30px;}
+.commodity_discount .p1 span:first-child{color:#888;}
+.commodity_discount .p1 span:last-child{color:#E4393C;font-weight: bold;margin-left: 10px;}
+.commodity_discount .p2 span:first-child{color:#888;}
+.commodity_discount .p2 span:last-child{color:#E4393C;font-weight: bold;margin-left: 10px;}
+.commodity_discount .p3 span:first-child{color:#888;}
+.commodity_discount .p3 span:last-child{color:#888;margin-left: 10px;text-decoration:line-through}
+.commodity_dis{line-height:30px}
+.commodity_planl{border-top:1px solid #888;border-bottom:1px solid #888;height:30px;line-height: 30px;}
+.commodity_planl li{width:33.33%;height:30px;float:left;text-align:center}
+.commodity_planl li em {color:red}
+.commodity_type_select{line-height:30px;width:100%;height:30px;margin:10px 0}
+.commodity_type_select div{color:#888;float:left;width:50px}
+.commodity_type_select ul {}
+.commodity_type_select ul li{float:left;border:1px solid #eee;padding:0 10px;margin-right:10px;cursor:pointer}
+.commodity_type_select ul li.cur{border:1px solid red}
+
+.commodity_num_title{color:#888;width:50px;}
+.number{width:30px}
+.pay button{width:98px;height:30px;line-height:30px;text-align:center;cursor:pointer;margin-top: 50px;}
+.pay_btn{border:1px solid #F03726;background:#FFEDED;color:#F03726;margin-right:20px;}
+.join_car{border:1px solid #F03726;background:#F03726;color:#fff}
+
+.match{margin-top:20px}
+.match p{color:#E4393C;font-weight:700;height:36px;line-height: 36px;font-size:16px;border-bottom:1px solid #E6E6E6;}
+.match ul{padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.match ul li{float:left;}
+.match ul li * {display:block}
+.match ul li img {width:150px;height:150px}
+.match ul li em:first-child{color:red;display:inline-block}
+.match ul li em:last-child{display:inline-block;text-decoration:line-through;font-size:12px;color:#888}
+
+.plus{height:180px;line-height: 180px;margin:0 5px;}
+.result .span1{color:#E4393C;font-size:16px;font-weight:600;margin-top:50px}
+.result .span2{}
+.result .span3{width:120px;line-height: 32px;color:#fff;text-align:center;background:#F03726}
+
+.commodity_main{margin:20px 0}
+
+.commodity_main_left{width:20%;float:left;padding:0 10px;border:1px solid #ccc;text-align:center}
+.commodity_main_left img{width:100%}
+.commodity_main_left span {display:block}
+.commodity_main_left span:last-child{color:red}
+
+.commodity_main_right{float:right;width:78%}
+.commodity_nav{background:#eee}
+.commodity_nav li {float:left;height:36px;line-height: 36px;width:216px;text-align:center;color:#000;font-weight:700;font-size:18px;}
+.commodity_nav li.cur{border-top: 2px solid #F03726;color:#F03726;}
+.show_box{width:100%;overflow:hiddem}
+
+.tab1 .p1{height:35px;border-bottom:1px solid #F70;font-size:14px;padding-left:10px;line-height:35px;width:100px;}
+.tab1 ul {margin:0 20px}
+.tab1 ul li{width:33.33%;float:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height: 30px;}
+
+.ass_detail_1{margin-bottom: 20px;}
+.ass1_all{width:88px;float:left;text-align:center}
+.ass1_all em{color:#e4393c;font-size:30px;}
+
+.ass1_impression{float:left;width:80%;margin-left: 5%;}
+.ass1_impression p {;text-align:left;height:36px;line-height: 36px;font-size:16px;color:#E4393C;font-weight: 600}
+.ass1_impression ul {}
+.ass1_impression ul li{float:left;height:21px;line-height: 21px;margin-right: 5px;background:#f47602;color:#fff;padding:0 7px;margin-bottom: 5px;}
+
+.evaluate{background:#eee;margin:10px 0}
+.evaluate li {float:left;margin-right:20px;line-height: 35px;}
+
+.avatar{width:40px;height:40px;border-radius:50%;overflow: hidden;float:left}
+.meta{float:left;border:1px solid #ccc;width:856px;overflow:hidden;margin-left:40px;}
+.meta p {padding:10px 15px;background:#eee}
+.content{padding:15px;}
+.type_info{padding:0 15px 15px 15px;}

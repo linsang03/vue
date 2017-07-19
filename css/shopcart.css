@@ -1,0 +1,34 @@
+.cartTable{width:1200px;margin: 0 auto;}
+.cartTitle{width:100%;border:#f5f5f5 2px solid;padding:10px}
+.cartTitle li {float:right;width:10%;text-align:center}
+.cartTitle li:first-child{float:left;width:50%}
+
+.cartMatch{border-bottom:#CCC 1px dotted;padding:0 5px;background:#eee;line-height: 25px;}
+.cartMatch * {float:left;}
+.cartMatch em {color:red}
+
+.shop_detail_list{/* border:1px solid #eee; */margin-bottom:10px;/* padding:10px */}
+.shop_detail_list li{border:1px solid #ccc;padding:10px}
+.shop_detail_list li div{float:right;text-align:center}
+.shop_detail_list li div:first-child{}
+.shop_detail_list li div.shop_detail{float:left;width:50%}
+.shop_detail_list li div.shop_detail div{float:left}
+/* .shop_detail_list li{float:right;width:10%;text-align:center;vertical-align:middle}
+.shop_detail_list li:first-child{float:left;width:50%;text-align:left} */
+.shop_img{border:1px solid #eee;padding:1px;float:left}
+.shop_type{float:left;margin-left:10px;}
+.shop_type p:last-child{color:#888}
+.number{width:30px}
+.price span{display:block}
+.price span:first-child{font-size:12px;color:#888;text-decoration:line-through}
+.price span:last-child{font-weight: 600;}
+.oper span{display:block}
+
+.wrapper{height:50px;line-height: 50px;background:#eee;padding-left:10px;margin-bottom: 20px;}
+.wra_select{float:left}
+.wra_select li {float:left;margin-right:10px}
+.wra_pay{float:right}
+.wra_pay li{float:right;margin-left:10px}
+.wra_pay li:first-child{width:80px;background:#F40;text-align:center;height:50px;line-height: 50px;color:#fff;cursor:pointer}
+.prix{color:red}
+
