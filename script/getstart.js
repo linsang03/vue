@@ -13,7 +13,7 @@ new Vue({
     methods:{
         notListView:function(datas){
             var _this=this;
-            this.$http.post("data/getstart.json",{params:datas}).then(function(res){
+            this.$http.get("data/getstart.json",{params:datas}).then(function(res){
                 _this.notList=JSON.parse(res.body).resle.list;
                 console.log(_this.notList)
             })
