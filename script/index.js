@@ -24,7 +24,7 @@ new Vue({
     methods:{
         notListView:function(datas){
             var _this=this;
-            this.$http.post("data/all.json",{params:datas}).then(function(res){
+            this.$http.get("data/all.json",{params:datas}).then(function(res){
                 _this.notList=JSON.parse(res.body).resle.list;
             })
         },
@@ -42,7 +42,7 @@ new Vue({
             var name = document.getElementById("name").value;
             var pas = document.getElementById("password").value;
             var loginArr = [];
-            this.$http.post("data/login.json",{params:{name:name,password:pas}}).then(function(res){
+            this.$http.get("data/login.json",{params:{name:name,password:pas}}).then(function(res){
                 loginArr=JSON.parse(res.body).resle.list;
                 console.log(loginArr);
                 for(var i=0;i<loginArr.length;i++){
