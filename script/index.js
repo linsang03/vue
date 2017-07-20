@@ -29,7 +29,7 @@ new Vue({
             })
         },
         tabFun:function(e){
-            var obox = document.getElementsByClassName("main_header");
+            var obox = document.getElementsByClassName("header");
             var arr = obox[0].getElementsByTagName("a");
             for(var i=0;i<arr.length;i++){
                 arr[i].className="topic-tab";
