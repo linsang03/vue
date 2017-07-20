@@ -1,0 +1,18 @@
+{
+  "resle":{
+    "list":[
+      {
+        "title":"文档&社区",
+        "mater":["vue1","vue2","vue3","vue4"]
+      },
+      {
+        "title":"文档&社区1",
+        "mater":["vue1","vue2","vue3","vue4"]
+      },
+      {
+        "title":"文档&社区2",
+        "mater":["vue1","vue2","vue3","vue4"]
+      }
+    ]
+  }
+}

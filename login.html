@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/vue.css">
+    <title>login</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="navbar-inner">
+            <div class="container clearfix">
+                <a class="brand">vue.js</a>
+                <from id="search_from">
+                    <input class="searchInp" type="text">
+                </from>
+                <ul class="nav clearfix">
+                    <li><a href="index.html">首页</a></li>
+                    <!--<li><a>VUE2.0</a></li>-->
+                    <li><a href="getstart.html">参考资料</a></li>
+                    <!--<li><a>API</a></li>-->
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="register.html">注册</a></li>
+                    <li><a href="login.html">登陆</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <div class="sidebar">
+            <div class="panel">
+                <div class="inner">
+                    <p>Vue：Vue.js专业中文社区</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="inner">
+                    <p>Vue：Vue.js专业中文社区</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="inner">
+                    <p>Vue：Vue.js专业中文社区</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="panel">
+                <ul class="header">
+                    <li class="color369219"><a href="index.html">主页</a></li>
+                    <li>/</li>
+                    <li>登录</li>
+                </ul>
+                <div class="inner">
+                    <from id="login_from">
+                        <div class="control-group">
+                            <label class="control-label">用户名</label>
+                            <div class="controls">
+                                <input type="text" id="name">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">密码</label>
+                            <div class="controls">
+                                <input type="password" id="password">
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <input type="submit" class="loginBtn" value="登录" @click="loginFun()">
+                            <a class="forgot_password">忘记密码了?</a>
+                        </div>
+                    </from>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_main">
+            <div class="links">
+                <a>RSS</a>
+                /
+                <a>地址</a>
+            </div>
+            <div class="col">
+                <p>12实打实大所大所大所</p>
+                <p>声明：内容均来自于网络，如有侵权行为请发送邮件至1934194424@qq.com,我将在第一时间删除</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script/vue.min.js"></script>
+<script src="script/vue-router.js"></script>
+<script src="js/vue-resource.js"></script>
+<script src="script/index.js"></script>
+</html>
